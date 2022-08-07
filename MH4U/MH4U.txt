@@ -39,4 +39,5 @@ D2000000 00000000
 60FCF7EC 00000000
 B0FCF7EC 00000000
 20000074 0000000X <= gender value
-{MALE = 0, FEMALE = 1}
+{Code works for current loaded profile
+MALE = 0, FEMALE = 1}
