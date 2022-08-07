@@ -34,3 +34,9 @@ D2000000 00000000
 
 [MH4U::USA Camera horizontal rotation speed]
 00BFD2EC 41200000 // float hex value, default is 10 (0x41200000)
+
+[MH4U:: Change gender]
+60FCF7EC 00000000
+B0FCF7EC 00000000
+20000074 0000000X <= gender value
+{MALE = 0, FEMALE = 1}

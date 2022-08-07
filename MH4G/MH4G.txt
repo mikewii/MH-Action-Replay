@@ -38,3 +38,9 @@ D2000000 00000000
 
 [MH4G::JPN Camera horizontal rotation speed]
 00BE3284 41200000 // float hex value, default is 10 (0x41200000)
+
+[MH4G::JPN Change gender]
+60FB02A8 00000000
+B0FB02A8 00000000
+20000074 0000000X <= gender value
+{MALE = 0, FEMALE = 1}
