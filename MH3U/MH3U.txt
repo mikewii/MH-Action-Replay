@@ -25,3 +25,6 @@ D2000000 00000000
 [MH3U:: Aspect Ratio 21:9]
 00880574 E3A02015
 0088057C E3A00009
+
+[MH3U:: Turn off filters (bloom, blur, etc.)]
+002A894C 1A00027D
