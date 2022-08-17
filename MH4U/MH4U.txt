@@ -9,30 +9,30 @@ D2000000 00000000
 010F036E = FSAA_2D::OFF|mDitherDisplay0::OFF
 010F436E = FSAA_2D::OFF|mDitherDisplay0::OFF|NoAADisplay1::ON}
 
-[MH4U::EUR Use keyboard on quest]
+[MH4U::EUR::1.1.0 Use keyboard on quest]
 005F5C24 E3A01000
 003AD048 E3A08000
 0039FFAC E1A00000
 {to open keyboard on quest , open prepared messages window and press X}
 
-[MH4U::USA Use keyboard on quest]
+[MH4U::USA::1.3.0 Use keyboard on quest]
 005F5BFC E3A01000
 003AD020 E3A08000
 0039FF84 E1A00000
 {to open keyboard on quest , open prepared messages window and press X}
 
-[MH4U::EUR Aspect Ratio 21:9]
+[MH4U::EUR::1.1.0 Aspect Ratio 21:9]
 00AEEF54 E3A00015
 00AEEF5C E3A01009
 
-[MH4U::USA Aspect Ratio 21:9]
+[MH4U::USA::1.3.0 Aspect Ratio 21:9]
 00AEEF04 E3A00015
 00AEEF0C E3A01009
 
-[MH4U::EUR Camera horizontal rotation speed]
+[MH4U::EUR::1.1.0 Camera horizontal rotation speed]
 00BFD33C 41200000 // float hex value, default is 10 (0x41200000)
 
-[MH4U::USA Camera horizontal rotation speed]
+[MH4U::USA::1.3.0 Camera horizontal rotation speed]
 00BFD2EC 41200000 // float hex value, default is 10 (0x41200000)
 
 [MH4U:: Change gender]
@@ -41,3 +41,9 @@ B0FCF7EC 00000000
 20000074 0000000X <= gender value
 {Code works for current loaded profile
 MALE = 0, FEMALE = 1}
+
+[MH4U::EUR::1.1.0 Turn off bloom]
+002BC258 E12FFF1E
+
+[MH4U::USA::1.3.0 Turn off bloom]
+002BC238 E12FFF1E

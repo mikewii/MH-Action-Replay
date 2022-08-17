@@ -1,4 +1,4 @@
-[MH4G::JAP Render Settings]
+[MH4G::JAP::4.4.0 Render Settings]
 61037C38 00000000
 B1037C38 00000000
 00006BA8 XXXXXXXX <= flags
@@ -20,7 +20,7 @@ D2000000 00000000
 010F036E = FSAA_2D::OFF|mDitherDisplay0::OFF
 010F436E = FSAA_2D::OFF|mDitherDisplay0::OFF|NoAADisplay1::ON}
 
-[MH4G::JPN 30 FPS cap]
+[MH4G::JPN::4.4.0 30 FPS cap]
 61037BBC 00000000
 B1037BBC 00000000
 00000030 41F00000
@@ -32,16 +32,29 @@ B101BF7C 00000000
 00000030 41F00000
 D2000000 00000000
 
-[MH4G::JPN Aspect Ratio 21:9]
+[MH4G::JPN::4.4.0 Aspect Ratio 21:9]
 00AD7E88 E3A00015
 00AD7E90 E3A01009
 
-[MH4G::JPN Camera horizontal rotation speed]
+[MH4G::JPN::4.4.0 Camera horizontal rotation speed]
 00BE3284 41200000 // float hex value, default is 10 (0x41200000)
 
-[MH4G::JPN Change gender]
+[MH4G::JPN::4.4.0 Change gender]
 60FB02A8 00000000
 B0FB02A8 00000000
 20000074 0000000X <= gender value
 {Code works for current loaded profile
 MALE = 0, FEMALE = 1}
+
+[MH4G::KOR::0.0.0 Change gender]
+60F94860 00000000
+B0F94860 00000000
+20000074 0000000X <= gender value
+{Code works for current loaded profile
+MALE = 0, FEMALE = 1}
+
+[MH4G::JPN::4.4.0 Turn off bloom]
+002B7498 E12FFF1E
+
+[MH4G::KOR::0.0.0 Turn off bloom]
+002B2DF8 E12FFF1E
