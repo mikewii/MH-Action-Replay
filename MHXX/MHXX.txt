@@ -121,3 +121,6 @@ example: 42960000 for 75}
 // for first time after game start
 [MHXX:: Disable MOTD]
 004C2CE8 E3A00001
+
+[MHXX:: Turn off bloom]
+002D1FF4 E12FFF1E
