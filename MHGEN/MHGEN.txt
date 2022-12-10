@@ -28,3 +28,6 @@ B0DB7E18 XXXXXXXX
 00000898 XXXXXXXX
 {replace all XXXXXXXX with float hex value
 example: 42960000 for 75}
+
+[MHGEN:: Turn off bloom]
+002FCA84 E12FFF1E
